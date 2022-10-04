@@ -17,6 +17,7 @@ public:
                 blocks[(i/3)*3+j/3].insert(curr);
             }
         }
+        
         return true;
     }
 };
