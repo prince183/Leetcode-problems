@@ -8,14 +8,13 @@ public:
         sum+=a[i];
     }
     long long int rem=k%sum;
-    for(long long int i=0;i<n;i++)
-    {
-        rem-=a[i];
-        if(rem<0)
-        {
-            return i;
-        }
-    }
-    return -1;
+    vector<long long int>pre(n);
+    pre[0]=a[0];
+    for(long long int i=1;i<n;i++)
+        pre[i]=pre[i-1]+a[i];
+     int idx=lower_bound(pre.begin(),pre.end(),rem)-pre.begin();
+     if(pre[idx]==rem)
+         return idx+1;
+    return idx;
 }
 };
