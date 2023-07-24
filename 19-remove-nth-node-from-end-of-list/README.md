@@ -1,4 +1,5 @@
 <h2><a href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/">19. Remove Nth Node From End of List</a></h2><h3>Medium</h3><hr><div><p>Given the <code>head</code> of a linked list, remove the <code>n<sup>th</sup></code> node from the end of the list and return its head.</p>
+<div>this is Yes</div>
 
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
@@ -6,6 +7,27 @@
 <pre><strong>Input:</strong> head = [1,2,3,4,5], n = 2
 <strong>Output:</strong> [1,2,3,5]
 </pre>
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2020/10/03/remove_ex1.jpg" style="width: 542px; height: 222px;">
+<pre><strong>Input:</strong> head = [1,2,3,4,5], n = 2
+<strong>Output:</strong> [1,2,3,5]
+</pre>
+
+<strong>Output:</strong> [1,2,3,5]
+</pre>
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2020/10/03/remove_ex1.jpg" style="width: 542px; height: 222px;">
+<pre><strong>Input:</strong> head = [1,2,3,4,5], n = 2
+<strong>Output:</strong> [1,2,3,5]
+</pre>
+
+
+
+
+
+
 
 <p><strong>Example 2:</strong></p>
 
@@ -31,4 +53,4 @@
 
 <p>&nbsp;</p>
 <p><strong>Follow up:</strong> Could you do this in one pass?</p>
-</div>
+</>
